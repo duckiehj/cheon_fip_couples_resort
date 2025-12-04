@@ -424,3 +424,196 @@ body {
     padding-top: 30px;
     line-height: 22px;
  }
+
+/*--- 9. Activities Page Styles ---*/
+
+#park-intro {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#park-intro p:first-of-type {
+    border-top: solid 3px #C54242;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+#park-act {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#park-act img {
+    margin-bottom: 15px;
+}
+
+#park-act h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#park-act p {
+    margin-bottom: 10px;
+}
+
+#park-act a {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#park-pic-bottom-nav {
+    background-color: #C54242;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#park-pic-bottom-nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#park-pic-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.seasonal-act {
+    background-color: #f4f4f4;   
+    padding-top: 35px;           
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.seasonal-act h2 {
+    font-size: 24px;             
+    border-bottom: solid 3px #C54242;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.seasonal-act h2 span {
+    color: #9a2018;              
+    font-size: 16px;
+}
+
+.seasonal {
+    margin-bottom: 16px;        
+}
+
+.seasonal h3 {
+    background: #e8e7e7;         
+    padding: 10px;
+    font-size: 15px;
+}
+
+.seasonal-list-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#seasonal-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#seasonal-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+}
+
+#seasonal-list a {
+    color: inherit;
+    font-size: 13px;
+}
+
+#book-activity {
+    grid-row: auto;     
+    margin-top: 5px;   
+}
+
+#onsite-intro {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#onsite-intro::before {
+    content: "";
+    display: block;
+    grid-column: 1 / -1;
+    border-top: 3px solid #C54242;
+    margin-top: 15px;   
+    margin-bottom: 20px;
+}
+
+#onsite-intro .onsite-h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#onsite-intro-textbox {
+    background: #4b4b4b;
+    color: #fff;
+    padding: 20px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+#onsite-intro-textbox a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#onsite-intro-textbox p {
+    margin-bottom: 20px;
+}
+
+
+#onsite-bottom-nav {
+    background-color: #C54242;   
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.onsite-nav-inner {
+    background-color: #C54242;
+    padding: 10px 0;
+    max-width: 340px;      
+    margin: 0 auto;
+}
+
+#onsite-bottom-nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#onsite-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: underline;
+}
+#main-footer {
+    background-image: url(../images/mob_footer.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}

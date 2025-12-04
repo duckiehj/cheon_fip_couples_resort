@@ -40,6 +40,7 @@
    width: 412px;
    margin: 20px auto 20px auto;
    border-radius: 10px;
+   overflow: hidden;
 } 
 
 a {
@@ -464,7 +465,7 @@ body {
     margin-top: 5px;
     font-size: 12px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #park-pic-bottom-nav {
@@ -588,12 +589,6 @@ body {
     margin-bottom: 30px;
 }
 
-.onsite-nav-inner {
-    background-color: #C54242;
-    padding: 10px 0;
-    max-width: 340px;      
-    margin: 0 auto;
-}
 
 #onsite-bottom-nav ol {
     list-style-type: none;

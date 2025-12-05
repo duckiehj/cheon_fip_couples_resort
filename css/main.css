@@ -11,6 +11,7 @@
     7. Contact Form
     8. Footer
     9. Activities Page Styles
+    10. Rooms Page Styles
 
 */
 
@@ -40,6 +41,7 @@
    width: 412px;
    margin: 20px auto 20px auto;
    border-radius: 10px;
+   overflow: hidden;
 } 
 
 a {
@@ -393,7 +395,7 @@ body {
 /* .8 --- Footer --- */
 
 #main-footer {
-    background-image: url(../images/footer-bg.jpg);
+    background-image: url(../images/mob_footer.jpg);
      background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
@@ -617,3 +619,5 @@ body {
     margin-top: 40px;
     padding-bottom: 80px;
 }
+
+/*-- 10. Rooms Page Styles --*/

@@ -68,7 +68,7 @@ body {
     color: #626262;
     font-family: 'Sanchez', 'Times New Roman', serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .cr-red {
@@ -147,7 +147,7 @@ body {
  }
 
  .book-now:hover {
-    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+    box-shadow: inset 0px -120px 0px 0px rgb(195, 33, 33);
  }
 
  .hero-img-h2 {
@@ -403,7 +403,7 @@ body {
     background-position: center;
     color: #fff;
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding-bottom: 80px;
  }
 
@@ -437,24 +437,24 @@ body {
 
 #park-intro {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 #park-intro p:first-of-type {
     border-top: solid 3px #9a2018;
     margin-top: 15px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #park-act {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 12px;
-    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 #park-act img {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #park-act h3 {
@@ -470,7 +470,7 @@ body {
 #park-act a {
     display: inline-block;
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -498,16 +498,16 @@ body {
 
 .seasonal-act {
     background-color: #f4f4f4;   
-    padding-top: 35px;           
-    padding-bottom: 30px;
-    margin-top: 30px;
+    padding-top: 25px;           
+    padding-bottom: 15px;
+    margin-top: 15px;
 }
 
 .seasonal-act h2 {
     font-size: 24px;             
     border-bottom: solid 3px #C54242;
-    margin-bottom: 50px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
 }
 
 .seasonal-act h2 span {
@@ -521,12 +521,13 @@ body {
 
 .seasonal h3 {
     background: #e8e7e7;         
-    padding: 10px;
+    padding: 15px 0 15px 10px;
+    margin-bottom: 10px;
     font-size: 15px;
 }
 
 .seasonal-list-con {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -548,7 +549,8 @@ body {
 
 #book-activity {
     grid-row: auto;     
-    margin-top: 5px;   
+    margin-top: 5px;
+    border-radius: 5px;   
 }
 
 #onsite-intro {
@@ -557,7 +559,6 @@ body {
 }
 
 #onsite-intro::before {
-    content: "";
     display: block;
     grid-column: 1 / -1;
     border-top: 3px solid #C54242;
@@ -573,15 +574,15 @@ body {
 #onsite-intro-textbox {
     background: #4b4b4b;
     color: #fff;
-    padding: 20px;
-    line-height: 22px;
+    padding: 20px 20px 40px 20px;
+    line-height: 26px;
     font-size: 14px;
 }
 
 #onsite-intro-textbox a {
     color: #fff;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #onsite-intro-textbox p {
@@ -593,7 +594,7 @@ body {
     background-color: #C54242;   
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -618,6 +619,7 @@ body {
 .intro-inc {
     color: #C54242;
     font-style: italic;
+    font-size: 18px;
 }
 
 .intro {
@@ -630,7 +632,7 @@ body {
 .rooms .seasonal p,
 .rooms p {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 
@@ -663,6 +665,7 @@ body {
 .cabin .seasonal p:nth-of-type(2),
 .rooms .seasonal p:nth-of-type(2) {
     color: #C54242;
+    font-size: 18px;
     font-style: italic;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -678,6 +681,7 @@ body {
 #villas-list li,
 #junior-list li {
     margin-bottom: 6px;
+    font-size: 14px;
 }
 
 .check-ava {
@@ -709,7 +713,7 @@ body {
 .special-room-offer {
     background-color: #f4f4f4;
     padding-top: 35px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     margin-top: 30px;
 }
 
@@ -748,12 +752,13 @@ body {
 #special-offer-pic p:first-of-type span {
     color: #C54242;
     font-weight: bold;
+    font-size: 12px;
 }
 
 #special-offer-nav {
     background-color: #C54242;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #special-offer-nav ol {
@@ -768,6 +773,10 @@ body {
     padding: 5px;
     color: #fff;
     text-decoration: underline;
+}
+
+#main-footer {
+    margin-top: 0;
 }
 
 
@@ -833,7 +842,7 @@ body {
 
 #rmt {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 #rmt::before {
@@ -885,14 +894,9 @@ body {
     text-decoration: underline;
 }
 
-
-#special-spa-pic img {
-    margin-bottom: 10px;  
-}
-
 #special-spa-pic h3 {
-    font-size: 18px;
-    margin: 15px 0 10px 0; 
+    font-size: 16px;
+    margin: 10px 0 10px 0; 
 }
 
 #special-spa-pic p {
@@ -907,6 +911,10 @@ body {
     margin-bottom: 20px;
 }
 
+.spa-rules h3 {
+    font-size: 15px;
+    padding: 15px 0 15px 10px;
+}
 
 .spa-rules p {
     font-size: 14px;
@@ -936,8 +944,12 @@ body {
 .spa-rules .rules h3 {
     background: #e8e7e7;
     padding: 10px;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0 0 10px 0;
+}
+
+#main-footer {
+    margin-top: 30px;
 }
 
 
@@ -1016,7 +1028,11 @@ body {
 }
 
 .desktop-page #hero-welcome {
-    margin-top: 25px; 
+    margin-top: 25px;
+}
+
+#hero-welcome {
+    margin-bottom: 20px;   
 }
 
 .desktop-page #hero-welcome p:first-of-type {

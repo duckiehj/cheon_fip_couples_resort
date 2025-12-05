@@ -10,9 +10,10 @@
     6. About & FAQ
     7. Contact Form
     8. Footer
-    9. Activities Page Styles
-    10. Rooms Page Styles
-    11. Spa Page Styles
+    9. Activities Mobile Styles
+    10. Rooms Mobile Styles
+    11. Spa Mobile Styles
+    12. Activities Desktop Styles
 
 */
 
@@ -406,6 +407,10 @@ body {
     padding-bottom: 80px;
  }
 
+ .desktop-page #main-footer {
+    background-image: url(../images/desk_footer.jpg);
+}
+
  #main-footer-contact-info h3 {
     font-size: 28px;
     margin-top: 30px;
@@ -428,7 +433,7 @@ body {
     line-height: 22px;
  }
 
-/*--- 9. Activities Page Styles ---*/
+/*--- 9. Activities Mobile Styles ---*/
 
 #park-intro {
     font-size: 14px;
@@ -607,7 +612,7 @@ body {
 }
 
 
-/*-- 10. Rooms Page Styles --*/
+/*-- 10. Rooms Mobile Styles --*/
 
 
 .intro-inc {
@@ -767,7 +772,7 @@ body {
 
 
 
-/*-- 11. Spa Page Styles --*/
+/*-- 11. Spa Mobile Styles --*/
 
 .spa-booking {
     width: 306px;
@@ -934,3 +939,51 @@ body {
     font-size: 18px;
     margin: 0 0 10px 0;
 }
+
+
+/*-- 12. Activities Desktop Styles --*/
+
+#main-header.desk-grid-con {
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+#main-header.desk-grid-con #logo img {
+    max-width: 220px;
+    height: auto;
+}
+
+#logo {
+    border-right: 1px solid #626262;   
+    padding-right: 20px;              
+    margin-right: 20px;                
+}
+
+
+#main-header.desk-grid-con #main-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+#main-header.desk-grid-con #nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#main-header.desk-grid-con #nav-list li a {
+    position: relative;
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 18px;
+    color: #626262;
+    text-decoration: none; 
+    border-bottom: none;  
+}
+

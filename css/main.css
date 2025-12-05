@@ -765,5 +765,172 @@ body {
     text-decoration: underline;
 }
 
+
+
 /*-- 11. Spa Page Styles --*/
 
+.spa-booking {
+    width: 306px;
+    height: 166px;
+    margin: 10px auto 40px auto;  
+    padding: 0;
+}
+
+.spa-booking-card {
+    background-color: #9a2018;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+}
+
+.spa-booking-card * {
+    box-sizing: border-box;
+}
+
+.spa-booking-title {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+.spa-booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.spa-booking-input,
+.spa-booking-btn {
+    width: 270px;
+    height: 39px;
+    border-radius: 6px;
+}
+
+.spa-booking-input {
+    border: none;
+    padding: 0 40px 0 16px;
+}
+
+.spa-booking-btn {
+    background-color: #C54242;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.spa-booking-btn:hover {
+    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+}
+
+
+#rmt {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#rmt::before {
+    display: block;
+    grid-column: 1 / -1;
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#rmt img {
+    margin-top: 10px;
+}
+
+#rmt h3 {
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+}
+
+#rmt p {
+    margin-bottom: 5px;
+}
+
+#rmt a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#spa-pic-bottom-nav {
+    background-color: #C54242;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#spa-pic-bottom-nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#spa-pic-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+#special-spa-pic img {
+    margin-bottom: 10px;  
+}
+
+#special-spa-pic h3 {
+    font-size: 18px;
+    margin: 15px 0 10px 0; 
+}
+
+#special-spa-pic p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+#special-spa-pic a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.spa-rules p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spa-rules::before {
+    content: "";
+    display: block;
+    grid-column: 1 / -1;
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.spa-rules {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.spa-rules .rules {
+    margin-bottom: 5px;
+}
+
+.spa-rules .rules h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}

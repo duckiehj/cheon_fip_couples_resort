@@ -70,7 +70,7 @@ body {
 }
 
 .cr-red {
-    color: #9a2018;
+    color: #C54242;
 }
 
 /* 3. ---Header--- */
@@ -170,7 +170,7 @@ body {
  }
 
   #hero-welcome p:first-of-type {
-    border-top: solid 3px #CF6666;
+    border-top: solid 3px #9a2018 ;
     margin-top: 15px;
     padding-top: 20px;
  } 
@@ -233,7 +233,7 @@ body {
 
 /* first-of-type will match the first occurrence of a specified element, even if it doesn’t come absolutely first in the HTML. */
 #why-options section:first-of-type  {
-    border-top: solid 3px #CF6666;
+    border-top: solid 3px #9a2018;
     margin-top: 15px;
     padding-top: 40px;
 }
@@ -258,7 +258,7 @@ body {
 }
 
 #why-choose-us-bottom-nav {
-    background-color: #CF6666;
+    background-color: #C54242;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -286,7 +286,7 @@ body {
  /* 6. ---About & FAQ --- */
 
 #about-text-group1 {
-    border-top: solid 3px #CF6666;
+    border-top: solid 3px #C54242;
     margin-top: 15px;
     padding-top: 40px;
 }
@@ -299,7 +299,7 @@ body {
  
  .faq h2 {
     font-size: 24px;
-    border-bottom: solid 3px #CF6666;
+    border-bottom: solid 3px #9a2018;
     margin-bottom: 50px;
     padding-bottom: 40px;
  }
@@ -343,7 +343,7 @@ body {
 /* 7. ---Contact Form--- */
 
 #contact-form-text p {
-    border-top: solid 3px #CF6666;
+    border-top: solid 3px #C54242;
     margin-top: 15px;
     padding-top: 40px;
     line-height: 22px;
@@ -396,8 +396,8 @@ body {
 
 #main-footer {
     background-image: url(../images/mob_footer.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     color: #fff;
     font-size: 12px;
@@ -421,7 +421,7 @@ body {
  }
 
  #price-policy {
-    border-top: solid 3px #CF6666;
+    border-top: solid 3px #9a2018;
     margin-top: 15px;
     padding-top: 30px;
     line-height: 22px;
@@ -435,7 +435,7 @@ body {
 }
 
 #park-intro p:first-of-type {
-    border-top: solid 3px #C54242;
+    border-top: solid 3px #9a2018;
     margin-top: 15px;
     padding-top: 20px;
 }
@@ -604,14 +604,79 @@ body {
     color: #fff;
     text-decoration: underline;
 }
-#main-footer {
-    background-image: url(../images/mob_footer.jpg); 
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
-}
+
 
 /*-- 10. Rooms Page Styles --*/
+
+.intro-inc {
+    color: #C54242;   
+    font-style: italic;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+#cabin-info {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#cabin-info p:first-of-type {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.cabin .seasonal h3 {
+    margin-bottom: 10px;
+}
+
+.cabin img {
+    margin-top: 10px;
+}
+
+#villas-list ul {
+    margin: 0;        
+    padding: 0;
+    list-style: none;  
+}
+
+#villas-list li {
+    margin-bottom: 6px;
+}
+
+.cabin .seasonal p:nth-of-type(2) {
+    color: #C54242;    
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.check-ava {
+    background-color: #C54242;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    margin-top: 20px;
+}
+
+.check-ava:hover {
+    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+}
+
+.cabin .seasonal {
+    margin-bottom: 10px;
+}
+
+.cabin .seasonal p:first-of-type {
+    margin-top: 8px;
+}

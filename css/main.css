@@ -820,7 +820,7 @@ body {
 
 
 .spa-booking {
-    margin: 20px 0 50px 15px ;
+    margin: 20px 0 50px 0 ;
     padding: 0;
 }
 
@@ -833,7 +833,6 @@ body {
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
-
 }
 
 

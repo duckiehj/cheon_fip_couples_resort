@@ -1048,7 +1048,6 @@ body {
     font-size: 18px;
     color: #626262;
     text-decoration: none;
-    border-bottom: none;  
 }
 
 .desktop-page #main-nav li {
@@ -1063,7 +1062,9 @@ body {
     margin-top: 0;
 }
 
-.desktop-page #main-hero img {
+.desktop-page #main-hero img,
+.desktop-page #park-pic img,
+.desktop-page #onsite img {
     grid-column: 1 / -1;
     width: 100%;
     display: block;
@@ -1102,10 +1103,9 @@ body {
     grid-template-columns: repeat(12, 1fr);
 }
 
-.desktop-page #park-pic img {
-    grid-column: 1 / -1;
-    width: 100%;
-    display: block;
+
+.desktop-page #hero-welcome p {
+    margin-bottom: 35px;
 }
 
 .desktop-page #park-pic .hero-img-h2 {
@@ -1133,11 +1133,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
 }
 
-.desktop-page #onsite img {
-    grid-column: 1 / -1;
-    width: 100%;
-    display: block;
-}
+
 
 .desktop-page #onsite .hero-img-h2 {
     grid-column: 1 / 7;   
@@ -1157,4 +1153,118 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+.desktop-page #park-intro p:first-of-type,
+.desktop-page #onsite-intro::before {
+    margin-top: 40px;
+    padding-top: 25px;
+}
+
+.desktop-page main p {
+    font-size: 18px;   
+    line-height: 32px; 
+}
+
+#park-act-desk {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#park-act-desk h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#park-act-desk a {
+    font-size: 18px;
+}
+
+.desktop-page .seasonal-act-desktop {
+    background-color: #f4f4f4;
+    padding: 45px 0 40px 0;
+    margin-top: 40px;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.desktop-page .seasonal-act-desktop h2 {
+    font-size: 24px;
+    border-bottom: 3px solid #C54242;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.desktop-page .seasonal-act-desktop h2 span {
+    color: #9a2018;
+    font-size: 16px;
+}
+
+/* 회색 아코디언 바 */
+
+.desktop-page .seasonal-act-desktop .seasonal {
+    margin-bottom: 10px;
+}
+
+.desktop-page .seasonal-act-desktop .seasonal h3 {
+    background: #e8e7e7;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+
+.desktop-page .seasonal-act-desktop .seasonal-list-con {
+    margin-top: 25px;
+}
+
+.desktop-page .seasonal-act-desktop #seasonal-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 40px;
+    row-gap: 8px;
+}
+
+.desktop-page .seasonal-act-desktop #seasonal-list li {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #C54242;
+}
+
+.desktop-page .seasonal-act-desktop #seasonal-list a {
+    color: #626262;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.book-now-desk {
+    justify-self: end;
+    width: 178px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C54242;
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.book-now-desk:hover {
+    box-shadow: inset 0 -120px 0 0 rgb(196, 28, 28);
+}
+
 

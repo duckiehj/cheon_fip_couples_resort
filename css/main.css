@@ -153,7 +153,7 @@ body {
  .hero-img-h2 {
     background: rgb(255, 255, 255);
     padding: 15px 15px;
-    font-size: 14px;
+    font-size: 16px;
     grid-column: 1/-1;
     grid-row: 2/3;
     align-self: end;
@@ -449,8 +449,8 @@ body {
 #park-act {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 #park-act img {
@@ -459,7 +459,6 @@ body {
 
 #park-act h3 {
     font-size: 18px;
-    font-weight: normal;
     margin-bottom: 10px;
 }
 
@@ -506,8 +505,8 @@ body {
 .seasonal-act h2 {
     font-size: 24px;             
     border-bottom: solid 3px #C54242;
-    margin-bottom: 50px;
-    padding-bottom: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .seasonal-act h2 span {
@@ -515,11 +514,11 @@ body {
     font-size: 16px;
 }
 
-.seasonal {
+.seasonal-act .seasonal {
     margin-bottom: 16px;        
 }
 
-.seasonal h3 {
+.seasonal-act .seasonal h3 {
     background: #e8e7e7;         
     padding: 10px;
     font-size: 15px;
@@ -543,13 +542,32 @@ body {
 
 #seasonal-list a {
     color: inherit;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #book-activity {
     grid-row: auto;     
     margin-top: 5px;   
 }
+
+.book-now-act {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    height: 67px;
+    border-radius: 5px;
+ }
+
+ .book-now-act:hover {
+    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+ }
 
 #onsite-intro {
     font-size: 14px;
@@ -566,11 +584,11 @@ body {
 }
 
 #onsite-intro .onsite-h3 {
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin: 20px 0 15px 0;
 }
 
-#onsite-intro-textbox {
+.onsite-intro-textbox {
     background: #4b4b4b;
     color: #fff;
     padding: 20px;
@@ -578,13 +596,13 @@ body {
     font-size: 14px;
 }
 
-#onsite-intro-textbox a {
+.onsite-intro-textbox a {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
 }
 
-#onsite-intro-textbox p {
+.onsite-intro-textbox p {
     margin-bottom: 20px;
 }
 
@@ -618,21 +636,16 @@ body {
 .intro-inc {
     color: #C54242;
     font-style: italic;
+    margin-bottom: 15px;
 }
 
 .intro {
     margin-bottom: 30px;
 }
 
-#cabin-info,
-#rooms-info,
-.cabin .seasonal p,
-.rooms .seasonal p,
-.rooms p {
+#cabin-info, #rooms-info, .rooms p {
     font-size: 14px;
-    line-height: 22px;
-}
-
+    line-height: 22px; }
 
 #cabin-info p:first-of-type,
 #rooms-info p:first-of-type {
@@ -641,32 +654,51 @@ body {
     padding-top: 20px;
 }
 
-.seasonal {
-    margin-bottom: 5px;
+.cabin-item h3,
+.rooms-item h3 {
+    background: #e8e7e7;   
+    padding: 12px 16px;
+    font-size: 16px;
+    margin: 0 0 20px 0;   
 }
 
-.cabin .seasonal h3,
-.rooms .seasonal h3 {
-    margin-bottom: 10px;
-}
-
-.cabin img,
-.rooms .seasonal img {
+.cabin-item img + p {
     margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
 
-.cabin .seasonal p:first-of-type,
-.rooms .seasonal p:first-of-type {
-    margin-top: 8px;
-}
-
-.cabin .seasonal p:nth-of-type(2),
-.rooms .seasonal p:nth-of-type(2) {
+.cabin-item p:nth-of-type(2),
+.rooms-item p:nth-of-type(2) {
     color: #C54242;
     font-style: italic;
+    font-size: 18px;      
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
+
+#room-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;          
+}
+
+#room-list li {
+    text-align: left;          
+    padding: 10px 0 6px 0;    
+    border-bottom: 1px solid #9a2018; 
+}
+
+#room-list li:last-child {
+    margin-bottom: 30px;
+}
+
+#room-list a {
+    display: block;            
+    color: #626262;            
+    text-decoration: none;    
+}
+
 
 #villas-list ul,
 #junior-list ul {
@@ -706,13 +738,16 @@ body {
     margin-top: 20px;
 }
 
+.rooms-item img + p {
+    margin-top: 15px; 
+}
+
 .special-room-offer {
     background-color: #f4f4f4;
     padding-top: 35px;
     padding-bottom: 30px;
     margin-top: 30px;
 }
-
 
 .special-room-offer h2 {
     font-size: 22px;
@@ -735,12 +770,12 @@ body {
 }
 
 #special-offer-pic h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 8px 0;
 }
 
 #special-offer-pic p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     margin-bottom: 8px;
 }
@@ -770,14 +805,22 @@ body {
     text-decoration: underline;
 }
 
+.rooms-mob #main-footer {
+    margin-top: 0;
+}
+
+.rooms-mob .special-room-offer {
+    margin-bottom: 0;       
+    padding-bottom: 70px;
+}
+
 
 
 /*-- 11. Spa Mobile Styles --*/
 
+
 .spa-booking {
-    width: 306px;
-    height: 166px;
-    margin: 10px auto 40px auto;  
+    margin: 20px 0 50px 15px ;
     padding: 0;
 }
 
@@ -785,16 +828,17 @@ body {
     background-color: #9a2018;
     border-radius: 6px;
     padding: 15px;
-    margin: 0;
     color: #fff;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+
 }
 
-.spa-booking-card * {
-    box-sizing: border-box;
-}
 
 .spa-booking-title {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 15px 0;
 }
 
@@ -802,28 +846,32 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 100%;
 }
 
 .spa-booking-input,
 .spa-booking-btn {
-    width: 270px;
+    width: 100%;
     height: 39px;
     border-radius: 6px;
+    box-sizing: border-box;
 }
 
 .spa-booking-input {
     border: none;
-    padding: 0 40px 0 16px;
+    padding: 0 15px;
+    font-size: 16px;
 }
 
 .spa-booking-btn {
     background-color: #C54242;
     border: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    font-family: 'Sanchez', serif;
 }
 
 .spa-booking-btn:hover {
@@ -837,6 +885,7 @@ body {
 }
 
 #rmt::before {
+    content: "";
     display: block;
     grid-column: 1 / -1;
     border-top: 3px solid #9a2018;
@@ -885,14 +934,13 @@ body {
     text-decoration: underline;
 }
 
-
 #special-spa-pic img {
     margin-bottom: 10px;  
 }
 
 #special-spa-pic h3 {
     font-size: 18px;
-    margin: 15px 0 10px 0; 
+    margin: 10px 0 10px 0; 
 }
 
 #special-spa-pic p {
@@ -907,12 +955,29 @@ body {
     margin-bottom: 20px;
 }
 
+#special-nav {
+    background-color: #C54242;
+    padding: 10px;
+    margin-top: 20px;
+}
 
-.spa-rules p {
+#special-nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#special-nav ol li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.spa-rules {
     font-size: 14px;
     line-height: 22px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .spa-rules::before {
@@ -924,11 +989,6 @@ body {
     margin-bottom: 20px;
 }
 
-.spa-rules {
-    font-size: 14px;
-    line-height: 22px;
-}
-
 .spa-rules .rules {
     margin-bottom: 5px;
 }
@@ -936,13 +996,26 @@ body {
 .spa-rules .rules h3 {
     background: #e8e7e7;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 0 10px 0;
 }
+
+.spa-rules p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 
 
 /*-- 12. Activities Desktop Styles --*/
 
+.desktop-page #logo {
+    border-right: 1px solid #626262;   
+    padding-right: 20px;              
+    margin-right: 20px;                
+}
 
 #main-header.desk-grid-con {
     align-items: center;
@@ -954,11 +1027,6 @@ body {
     height: auto;
 }
 
-#logo {
-    border-right: 1px solid #626262;   
-    padding-right: 20px;              
-    margin-right: 20px;                
-}
 
 #main-header.desk-grid-con #main-nav {
     display: flex;
@@ -1078,7 +1146,7 @@ body {
     position: relative;
 }
 
-/* 텍스트 스타일 동일하게 */
+
 .desktop-page #onsite .hero-img-h2 span {
     display: block;
     color: #9a2018;

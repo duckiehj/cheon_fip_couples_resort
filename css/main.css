@@ -1125,7 +1125,8 @@ body:not(.desktop-page) #main-nav li:hover a {
 #special-nav {
     background-color: #C54242;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #special-nav ol {

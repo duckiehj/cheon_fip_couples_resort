@@ -1457,6 +1457,13 @@ body:not(.desktop-page) #main-nav li:hover a {
     cursor: pointer;
 }
 
+.desktop-page #onsite-grid .onsite-card-click-area {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+
 
 .desktop-page #onsite-grid .onsite-card img {
     width: 100%;
@@ -1584,7 +1591,7 @@ body:not(.desktop-page) #main-nav li:hover a {
 }
 
 
-.desktop-page #onsite-grid .onsite-card-toggle:checked + .onsite-card-inner {
+.desktop-page #onsite-grid .onsite-card-toggle:checked ~ .onsite-card-inner {
     transform: rotateY(180deg);
 }
 

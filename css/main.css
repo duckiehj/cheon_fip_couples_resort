@@ -1189,18 +1189,41 @@ body:not(.desktop-page) #main-nav li:hover a {
     margin-bottom: 5px;
 }
 
-.spa-rules .rules h3 {
-    background: #e8e7e7;
-    padding: 10px;
-    font-size: 15px;
-    margin: 0 0 10px 0;
+
+.spa-rules .rules summary::-webkit-details-marker {
+    display: none;
 }
 
-.spa-rules p {
-    font-size: 14px;
-    line-height: 22px;
-    margin-top: 10px;
+.spa-rules .rules summary {
+    background: #e8e7e7;
+    padding: 12px 0 12px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.spa-rules .rules summary::after {
+    content: "▶";
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #626262;
+    transition: transform 0.5s ease;
+}
+
+.spa-rules .rules[open] summary::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.spa-rules .rules p {
+    padding: 10px 5px 10px 5px;
     margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 14px;
 }
 
 

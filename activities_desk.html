@@ -250,18 +250,21 @@
             <p>E-mail: <a href="mailto:info@couplesresort.com">info@couplesresort.com</a></p>
         </div>
 
-        <nav class="footer-nav desk-col-span-4">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="rooms_mob.html">Rooms</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Dining</a></li>
-                <li><a href="spa_mob.html">Spa</a></li>
-                <li><a href="activities_desk.html">Activities</a></li>
-                <li><a href="#">Reservations</a></li>
-            </ul>
-        </nav>
+        <div id="footer-subscribe" class="desk-col-start-5 desk-col-end-10">
+            <form id="newsletter-form" action="#" method="post">
+                <label class="subscribe-label">
+                <input type="checkbox" id="subscribe-check">
+                    <span class="subscribe-text">Subscribe to our Newsletter</span>
+                </label>
+           
+                <label for="email-input" class="hidden">Email Address</label>
+                <input type="email" id="email-input" name="email" placeholder="Enter your email address" required>
+                
+                <button type="submit" id="submit-button">Submit</button>
+             </form>  
+        </div>
 
+        
         <div class="footer-cta desk-col-start-10 desk-col-end-13">
             <a href="#" class="footer-book-now">Book Now</a>
         </div>

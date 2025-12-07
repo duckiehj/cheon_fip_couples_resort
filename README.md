@@ -1,7 +1,7 @@
 
 # FIP - Couples Resort Project
 
-This repo contains the submission for MMED-1052 and MMED-1054 HW#3 by Jin Cheon.  
+This repo contains the submission for MMED-1052 and MMED-1054 FIP project by Jin Cheon.  
 
 The Final Integrated Project for this term involves expanding on the Couple’s Resort website originally created in the web class. For this project, I developed three mobile pages (Activities, Rooms, Spa) and one desktop page (Activities). All pages are built using a static CSS grid layout for both mobile and desktop views.
 
